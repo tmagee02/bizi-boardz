@@ -1,0 +1,91 @@
+:root{
+  --bizi-dark: #2D2928;
+  --bizi-yellow: #E79215;
+  --bizi-white: #E7E5DF;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+}
+
+.nav{
+  background-color: var(--bizi-dark);
+  color: var(--bizi-white);
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 2rem;
+  padding: 0 1rem;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
+}
+
+.shadow{
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
+}
+
+.app-title{
+  margin: 0 50px;
+  font-size: 2rem;
+  color: var(--bizi-yellow);
+  font-weight: 500;
+  font-style: italic;
+}
+
+
+.nav ul{
+  padding: 0;
+  margin: 0 10px;
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.nav a{
+  color: inherit;
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 .25rem;
+  font-weight: 700;
+  
+}
+
+nav span{
+  color: var(--bizi-yellow);
+  font-weight: 500;
+  font-style: italic;
+}
+
+
+li{
+  height: 100%;
+}
+
+
+.nav li:hover{
+  color: var(--bizi-yellow);
+}
+
+
+.nav li.active{
+  color: var(--bizi-yellow);
+  background-image: radial-gradient(circle, var(--bizi-yellow) 2px, transparent 2px),
+  linear-gradient(to right, var(--bizi-yellow), var(--bizi-yellow)),
+  radial-gradient(circle, var(--bizi-yellow) 2px, transparent 2px);
+  background-repeat: no-repeat;
+  background-size: 10px 4px, calc(100% - 8px) 4px, 10px 4px;
+  background-position: left top, center top, right top;
+  display: block;
+  outline: none;
+  border: none;
+}

@@ -1,0 +1,36 @@
+
+.my-tasks-section{
+    /* background-color: pink; */
+    width: 94%;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+}
+
+.my-tasks-section-header{
+    /* background-color: aquamarine; */
+    color: var(--bizi-yellow);
+    margin: 10px 5px 0 5px;
+    padding: 5px 5px;
+    display: flex;
+    justify-content: left;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.my-tasks-section-body{
+    background-color: var(--bizi-yellow);
+    border-radius: 10px;
+    box-shadow: -2px -2px 4px 0 rgba(0,0,0,.5);
+}
+
+.my-tasks-section-body ul{
+    /* background-color: blue; */
+    padding: 0;
+    margin-bottom: 5px;
+    list-style-type: none;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

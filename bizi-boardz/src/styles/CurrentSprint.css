@@ -1,0 +1,42 @@
+:root{
+    --bizi-dark: #2D2928;
+    --bizi-yellow: #E79215;
+    --bizi-white: #E7E5DF;
+}
+
+/* HIDES THE SIDE SCROLLBAR*/
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+body{
+    background-color: var(--bizi-dark);
+    margin-top: 50px;
+}
+
+/* .pageCurrentSprint{
+    background-color: red;
+} */
+
+.pageHeader{
+    /* background-color: #E79215; */
+    color: var(--bizi-white);
+    margin: 70px 10px 15px 10px;
+    padding: 0 16px;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: .3px;
+}
+
+.pageBody{
+    background-color: var(--bizi-dark);
+    height: (100% - 106px);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-evenly;
+    position: absolute;
+}
+

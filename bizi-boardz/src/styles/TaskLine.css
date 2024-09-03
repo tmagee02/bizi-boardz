@@ -1,0 +1,130 @@
+.taskLine{
+    background-color: var(--bizi-dark);
+    width: 98%;
+    height: 40px;
+    margin: 6px 4px;
+    padding: 5px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: -2px -2px 4px 0 rgba(0,0,0,.5);
+}
+
+.taskLine:hover{
+    cursor: pointer;
+}
+
+.taskLine .taskLineMain{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    /* width: 75%; */
+}
+
+
+.taskLineMain .taskName{
+    /* background-color: red; */
+    color: var(--bizi-white);
+    /* min-height: 24px;
+    max-height: 48px; */
+    height: 20px;
+    /* width: 400px;; */
+    min-width: 200px;
+    max-width: 350px;
+    margin: 0 auto;
+    font-weight: 500;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+    align-items: center;   
+    justify-content: start;
+}
+
+
+/* .taskLineMain .assignee{
+    background-color: green;
+    color: var(--bizi-white);
+    opacity: .6;
+    height: 18px;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: .3px;
+    padding-left: 8px;
+    overflow: hidden;
+    text-align: left;
+} */
+
+.taskLineBubbles{
+    /* background-color: blue; */
+    /* width: 150px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.taskLineBubbles .bubblePriority{
+    background-color: var(--bizi-white);
+    border-radius: 100px;
+    height: 24px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    font-size: 18px;
+    word-spacing: -3px;
+}
+
+.priorityNA{
+    color: var(--bizi-dark);
+}
+
+.priorityLow{
+    color:seagreen;
+}
+
+.priorityModerate{
+    color: var(--bizi-yellow);
+}
+
+.priorityHigh{
+    color: crimson;
+}
+
+.taskLineBubbles .bubbleTaskLength{
+    background-color: var(--bizi-white);
+    color: var(--bizi-dark);
+    border-radius: 100px;
+    height: 24px;
+    width: 40px;
+    margin: 0 0 0 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+
+.taskLineBubbles .bubbleLocation{
+    background-color: var(--bizi-white);
+    color: var(--bizi-dark);
+    border-radius: 100px;
+    height: 24px;
+    width: 40px;
+    margin: 0 0 0 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 16px;
+    border: none;
+    box-shadow: 0 2px 0 rgba(231,229,223,.6);
+}
+
+.taskLineBubbles .bubbleLocation:active{
+    box-shadow: none;
+    transform: translateY(2px);
+}

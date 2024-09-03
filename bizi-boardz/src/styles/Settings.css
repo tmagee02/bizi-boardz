@@ -1,0 +1,66 @@
+/* settings.css */
+
+.settings-container {
+    max-width: 50%;
+    margin: 0 auto;
+    border: 5px solid var(--bizi-yellow);
+    background-color: var(--bizi-brown);
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  .settings-header {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: var(--bizi-yellow);
+  }
+  
+  .form-label {
+    display: block;
+    margin-bottom: 8px;
+    color: white; /* Text color */
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    color: white; /* Text color */
+    background-color: var(--bizi-brown); /* Brown background color */
+    border: 2px solid var(--bizi-yellow); /* Yellow border */
+    border-radius: 4px;
+  }
+  
+  .form-button {
+    background-color: var(--bizi-yellow);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .form-button:hover {
+    background-color: var(--bizi-yellow);
+  }
+  .solid-line {
+    height: 2px;
+    width: 100%;
+    background-color: var(--bizi-yellow);
+    margin-bottom: 10px ;
+  }
+  
+  h1, h2{ 
+    text-align: center;
+    color: var(--bizi-yellow)
+  }
+
+  hr {
+    border: none;
+    border-top: 7px dotted var(--bizi-white);
+    width: 75%;
+    margin: auto;
+    padding-bottom: 7px;
+
+  }
+  

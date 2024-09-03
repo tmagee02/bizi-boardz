@@ -1,0 +1,24 @@
+.sectionHeader{
+    /* background-color: green; */
+    color: var(--bizi-yellow);
+    width: 94%;
+    margin: 10px 5px 0 5px;
+    padding: 5px 5px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.sectionBody{
+    background-color: var(--bizi-yellow);
+    width: 94%;
+    border-radius: 10px;
+    margin: 0 5px 15px 5px;
+    padding: 4px 2px 4px 2px;
+    box-shadow: -2px 0 8px 0 rgba(0,0,0,.4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
