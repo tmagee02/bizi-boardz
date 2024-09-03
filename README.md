@@ -38,3 +38,17 @@ In this popup, you can give the new task a name, assign it to any other contribu
 
 ---
 ## Current Sprint
+The Current Sprint page shares a lot of the same details about a project as the View Backlog page, but here the user can focus purely on items that are in the project's current sprint.
+
+![Current Sprint page](img/current_sprint.png)
+
+Similar to the View Backlog page, you are able to see the current repo you are working in in the top-left corner. You can also see columns labeled 'To Do', 'In Progress', and 'Done' that signify the current state of a task. You can edit any info about a task (reassigning it, editing the description, etc.) by simply clicking on the task card. 
+
+If you want to sketch out details on how you want to go about completing a certain task, you can click on the button in the bottom left of any task card. This will load a task-specific whiteboard popup.
+
+![Task-specific Whiteboard popup](img/whiteboard.png)
+
+On the top part of the whiteboard popup, you can see the title of the task that you selected as well as the whiteboard tools (text, shapes, colors, select, delete). This environment updates in real time, so it is a great place to collaborate and problem solve with other contributors in the repo.
+
+---
+## My Tasks
