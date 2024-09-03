@@ -19,5 +19,7 @@ There are 4 different pages available to the user:
 ---
 ## View Backlog
 View Backlog is the first page that the user sees when they boot up the application. Here the user can view all tasks that are currently availible to the team that they are collaborating with.
+
 ![View Backlog page](img/view_backlog.png)
+
 At the top of this page, you can see the current GitHub repository you are currently connected to.
