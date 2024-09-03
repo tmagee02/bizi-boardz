@@ -15,7 +15,6 @@ There are 4 different pages available to the user:
 3. My Tasks
 4. Settings
 
----
 ## View Backlog
 View Backlog is the first page that the user sees when they boot up the application. Here the user can view all tasks that are currently availible to the team that they are collaborating with.
 
@@ -36,7 +35,6 @@ If you want to add a new task to the backlog, click on the 'New Task' button in 
 
 In this popup, you can give the new task a name, assign it to any other contributor in the GitHub repo that you are connected to, state the task's current progress, priority, task length, and give it a description.
 
----
 ## Current Sprint
 The Current Sprint page shares a lot of the same details about a project as the View Backlog page, but here the user can focus purely on items that are in the project's current sprint.
 
@@ -50,5 +48,4 @@ If you want to sketch out details on how you want to go about completing a certa
 
 On the top part of the whiteboard popup, you can see the title of the task that you selected as well as the whiteboard tools (text, shapes, colors, select, delete). This environment updates in real time, so it is a great place to collaborate and problem solve with other contributors in the repo.
 
----
 ## My Tasks
