@@ -7,6 +7,7 @@ A copy of the bizi-boardz repo. Originally created by ***The Bizi Boyz***
 - Jaden Reid
 - Yogi Patel
 
+
 Bizi Boardz is a desktop application with project management features leveraging GitHub for data storage, taking inspiration from other applications such as Jira, Asana, and Miro. 
 
 There are 4 different pages available to the user: 
@@ -66,7 +67,7 @@ On the Settings page, you can see the current GitHub account you are logged into
 
 
 ## Launching Bizi Boardz
-*==Note: As of now, Bizi Boardz is not usable to people outside of the Bizi Boyz, due to .env variables that will not be shared with the public due to security concerns==*
+*Note: As of now, Bizi Boardz is not usable to people outside of the Bizi Boyz, due to .env variables that will not be shared with the public due to security concerns*
 
 Requirements:
 - A GitHub account
