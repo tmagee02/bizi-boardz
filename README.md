@@ -2,7 +2,7 @@
 A copy of the bizi-boardz repo. Originally created by ***The Bizi Boyz***
 
 ### The Bizi Boyz
-- Tim Magee 
+- Tim Magee (Front-end)
 - Nick Mcgourthy
 - Jaden Reid
 - Yogi Patel
