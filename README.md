@@ -67,7 +67,7 @@ On the Settings page, you can see the current GitHub account you are logged into
 
 
 ## Launching Bizi Boardz
-*Note: As of now, Bizi Boardz is not usable to people outside of the Bizi Boyz, due to .env variables that will not be shared with the public due to security concerns*
+*Note: As of now, Bizi Boardz is not usable to people outside of the Bizi Boyz, due to .env variables that will not be shared with the public, due to security concerns*
 
 Requirements:
 - A GitHub account
